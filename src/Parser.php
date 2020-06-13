@@ -124,7 +124,7 @@ class Parser
     {
         $result = [];
         $client = HttpClient::create(['headers' => ['User-Agent' => $this->user_agent]]);
-        if ($this->url) {
+        if (isset($this->url)) {
             $this->url_array[] = $this->url;
         }
         if (count($this->url_array) == 0) {
