@@ -52,7 +52,9 @@ class Parser
     private array $allowed_url = [
         'www.olx.ua', 'www.olx.com', 'www.olx.pl', 'www.olx.pt', 'www.olx.ua', 'www.olx.ro',
         'www.olx.uz', 'www.olx.uz', 'www.olx.bg', 'www.olx.kz', 'olx.ua', 'olx.com',
-        'olx.pl', 'olx.pt', 'olx.ua', 'olx.ro', 'olx.uz', 'olx.uz', 'olx.bg', 'olx.kz'
+        'olx.pl', 'olx.pt', 'olx.ua', 'olx.ro', 'olx.uz', 'olx.uz', 'olx.bg', 'olx.kz',
+        'm.olx.ua', 'm.olx.com', 'm.olx.pl', 'm.olx.pt', 'm.olx.ua', 'm.olx.ro',
+        'm.olx.uz', 'm.olx.uz', 'm.olx.bg', 'm.olx.kz'
     ];
 
     /**
